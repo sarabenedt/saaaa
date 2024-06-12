@@ -1,0 +1,17 @@
+:root{
+    --cor-primaria: #f464c3;
+    --cor-secundaria: #3d1c31;
+    --cor-tres: #FDACE0;
+    --branco: white;
+    --preto: black;
+
+
+}
+*{
+    padding: 0;
+    margin: ;
+    box-sizing: border-box;
+}
+header{
+background-color: var(--cor-primaria);
+}
