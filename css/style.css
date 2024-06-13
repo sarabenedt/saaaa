@@ -61,12 +61,13 @@ nav a:first-child{
 }
 #banner{
     width: 100%;
-    background-image: url(../imagens/banner_moda_feminina_oficial-comprimida.jpg);
+    background-image: url(../imagens/Captura\ de\ tela\ 2024-06-13\ 140821.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     position: center;
     position: relative;
+    
 }
 #txt-banner{
     position: absolute;
