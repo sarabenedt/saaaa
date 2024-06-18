@@ -61,7 +61,7 @@ nav a:first-child{
 }
 #banner{
     width: 100%;
-    background-image: url(../imagens/Captura\ de\ tela\ 2024-06-13\ 140821.png);
+    background-image: url(../imagens/Banner\ halloween\ loja\ rosa\ \(4\).png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -69,7 +69,7 @@ nav a:first-child{
     
 }
 #txt-banner{
-    position: absolute;
+    position: absolute ;
     top: 10%;
     right: 10%;
 }
