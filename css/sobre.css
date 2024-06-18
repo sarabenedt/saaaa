@@ -69,13 +69,17 @@ nav a:first-child {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     margin: 2%;
-    border: 10% ;
-}
+    border: 10%;
+font-family: Georgia, 'Times New Roman', Times, serif;}
 .img {
+    display: flex;
     align-items: center;
     margin: 20px 70px;
     flex-direction: column;
     
+}
+.img div{
+    margin-top: 20px;
 }
 .img img{
     max-width: 400px;
