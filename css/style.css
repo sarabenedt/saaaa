@@ -4,6 +4,7 @@
     --cor-tres: #FDACE0;
     --branco: white;
     --preto: black;
+    --rosa: rgb(161, 31, 118);
 
 
 }
@@ -61,7 +62,7 @@ nav a:first-child{
 }
 #banner{
     width: 100%;
-    background-image: url(../imagens/Banner\ halloween\ loja\ rosa\ \(4\).png);
+    background-image: url(../imagens/Banner\ halloween\ loja\ rosa\ \(5\).png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -85,9 +86,9 @@ nav a:first-child{
     gap: 1rem;
 }
 .card{
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 8px;
-    background-color: var(--cor-secundaria);
+    border: 1px solid var(--rosa);
+    border-radius:8px;
+    background-color: var(--rosa);
 }
 .card-img img{
     border-radius: 8px 8px 0 0;
@@ -96,4 +97,8 @@ nav a:first-child{
     color: var(--branco);
     padding: 1rem;
     text-align: center ;
+}
+.ludo{
+    position: absolute;
+    left: 0;
 }
