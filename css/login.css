@@ -55,7 +55,7 @@ nav a:first-child{
 }
 #login{
     border: 4px solid var(--cor-primaria);
-    border-radius:8px;
+    border-radius:40px;
     background-color: var(--cor-primaria);
     width: 400px;
     height: 500px;
@@ -68,14 +68,47 @@ nav a:first-child{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#email_login{
+.email_login{
     width: 300px;
-    height: 30px;
+    height: 35px;
+    text-align: left;
+    margin: 0%;
+    position: relative;
 }
 .ludo{
     position: absolute;
     left: 0;
 }
+
+.img {
+    display: inline;
+    align-items: center;
+    margin: 8px 10px;
+    flex-direction: column;
+
+}
+
+.img div {
+    margin-top: 20px;
+}
+
+.img img {
+    max-width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
 .sarinha{
-    height: 20px;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: none;
+    color: white;
+}
+#sara{
+    text-align: left;
 }
