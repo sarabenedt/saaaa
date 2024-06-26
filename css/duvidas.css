@@ -29,7 +29,8 @@ header {
     justify-content: center;
     position: relative;
 }
-#buscar{
+
+#buscar {
     flex-grow: 0.75;
     padding: 0.5rem;
     border-radius: 5px;
@@ -43,23 +44,38 @@ header {
     align-items: center;
     margin: 0.5rem;
 }
-#btn-buscar{
+
+#btn-buscar {
     background-color: transparent;
     border: none;
     position: absolute;
     right: 11%;
     cursor: pointer;
 }
-nav{
+
+nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
-  background-color: var(--cor-tres);
-  padding: 0.5rem;
+    background-color: var(--cor-tres);
+    padding: 0.5rem;
 }
-nav a:first-child{
+
+nav a:first-child {
     border-right: 1px solid var(--preto);
 }
-#baby{
-    border-radius: 30%;
+
+#baby {
+    padding:10px;
+    margin: 2rem;
+    grid-template-columns: none;
+    border-right: 5px solid var(--cor-primaria);
+    font-size: x-large;
+    background: #f464c3;
+
+}
+
+#ok {
+    margin: 2%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
