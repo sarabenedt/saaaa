@@ -60,7 +60,6 @@ nav{
 nav a:first-child{
     border-right: 1px solid var(--preto);
 }
-.ok{
-    border: 200px var(--cor-primaria);
-    border-radius: 100%;
+#baby{
+    border-radius: 30%;
 }
