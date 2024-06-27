@@ -68,7 +68,7 @@ nav a:first-child {
     margin-left: 30px;
     font-size: 35px;
     align-items: center;
-    margin: 20px;
+    margin: 0.5%;
     padding: 20px;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -77,18 +77,19 @@ nav a:first-child {
 
 .btn-fale {
     background-color: var(--cor-primaria);
-    color: var(--BRANCO);
+    color: white;
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: none;
-    margin: 5px;
+    border: 5px;
+    margin: 3%;
 }
 
-
 #baby {
+    color: white;
+    font-weight: bold;
     padding: 30px;
     margin: 30px 20px;
     background-color: var(--cor-primaria);
@@ -96,19 +97,15 @@ nav a:first-child {
     width: 1000px;
 
 }
-
 #sarinha {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
 #img {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-
+    margin: 20px 70px;
+    flex-direction: column;
 }
 
 

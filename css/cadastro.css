@@ -60,3 +60,85 @@ nav{
 nav a:first-child{
     border-right: 1px solid var(--preto);
 }
+#login{
+    border: 4px solid var(--cor-primaria);
+    border-radius:40px;
+    background-color: var(--cor-primaria);
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email_login{
+    width: 300px;
+    height: 45px;
+    margin: 1%;
+    position: relative;
+    border-radius: none;
+}
+
+.img {
+    display: inline;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+
+}
+
+.img div {
+    margin-top: 20px;
+}
+.sara{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    max-width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.sarinha{
+    background-color: black;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+    font-size: 15px;
+
+}
+.box-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+
+}
+.okay{
+    text-align: center;
+    margin: 1%;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.ok{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.com{
+    display: grid;
+    text-align: center;
+    margin: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
