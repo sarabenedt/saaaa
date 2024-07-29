@@ -107,7 +107,10 @@ nav a:first-child {
         flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
         align-items: flex-start; /* Alinha os itens à esquerda */
     }
-
+  .ludo{
+    font-size: 14px;
+    margin: 0%;
+  }
     #btn-buscar {
         right: 5%; /* Ajusta a posição do botão de busca */
     }
@@ -127,7 +130,7 @@ nav a:first-child {
 
 @media (max-width: 480px) {
     .ludo {
-        font-size: 2rem; /* Ajuste do tamanho da fonte em dispositivos muito pequenos */
+        font-size: 20px; /* Ajuste do tamanho da fonte em dispositivos muito pequenos */
     }
 
     .img {
