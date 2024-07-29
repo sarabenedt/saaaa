@@ -99,6 +99,48 @@ nav a:first-child{
     text-align: center ;
 }
 .ludo{
-    position: absolute;
-    left: 0;
+   text-decoration: none;
+   color: white;
+   font-size: x-large;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+        align-items: flex-start; /* Alinha os itens à esquerda */
+    }
+
+    #btn-buscar {
+        right: 5%; /* Ajusta a posição do botão de busca */
+    }
+
+    nav {
+        grid-template-columns: 1fr; /* Uma coluna em dispositivos menores */
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas em dispositivos menores */
+    }
+
+    #banner {
+        height: 250px; /* Ajusta a altura do banner em telas menores */
+    }
+
+    #txt-banner {
+        top: 20%; /* Ajusta a posição do texto no banner */
+        right: 5%; /* Ajusta a posição do texto no banner */
+    }
+}
+
+@media (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr; /* Uma coluna em dispositivos muito pequenos */
+    }
+
+    #buscar {
+        padding: 0.3rem; /* Ajusta o padding do campo de busca */
+    }
+
+    .conteudo h1 {
+        font-size: 1.5rem; /* Ajusta o tamanho da fonte do título */
+    }
 }

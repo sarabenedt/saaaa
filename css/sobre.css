@@ -52,6 +52,11 @@ header {
     right: 11%;
     cursor: pointer;
 }
+.ludo{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
 
 nav {
     display: grid;
@@ -96,4 +101,40 @@ nav a:first-child {
 .tamanho{
     margin: 1%;
     font-size: 30px;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+        align-items: flex-start; /* Alinha os itens à esquerda */
+    }
+
+    #btn-buscar {
+        right: 5%; /* Ajusta a posição do botão de busca */
+    }
+
+    nav {
+        grid-template-columns: 1fr; /* Uma coluna em dispositivos menores */
+    }
+
+    .lumo {
+        grid-template-columns: 1fr; /* Uma coluna em dispositivos menores */
+    }
+
+    .tamanho {
+        font-size: 1.5rem; /* Ajuste de tamanho em dispositivos menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .ludo {
+        font-size: 2rem; /* Ajuste do tamanho da fonte em dispositivos muito pequenos */
+    }
+
+    .img {
+        margin: 10px auto; /* Ajusta a margem para dispositivos pequenos */
+    }
+
+    .tamanho {
+        font-size: 1.2rem; /* Ajuste de tamanho para textos menores */
+    }
 }

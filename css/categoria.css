@@ -21,7 +21,11 @@ header {
     padding: 1rem;
     align-items: center;
 }
-
+.ludo{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
 #form-buscar {
     flex-grow: 1;
     display: flex;
@@ -59,4 +63,53 @@ nav{
 }
 nav a:first-child{
     border-right: 1px solid var(--preto);
+}
+.content{
+    display: grid;
+    text-align: center;
+    
+}
+#categoria{
+  display: flex;
+   align-items: center;
+   margin: 1% 43%;
+   font-size: x-large;
+}
+#back{
+    display: grid;
+    align-items: center;
+    border: 4px solid var(--cor-primaria);
+    border-radius:40px;
+    background-color: var(--cor-primaria);
+    width: 1000px;
+    height: 350px;
+    text-align: center;
+   margin-left: 22%;
+    color: white;
+    font-size: 10px;
+    margin-top: 1%;
+}
+#margin{
+    display: flex;
+
+}
+.sara{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    font-size: 20px;
+}
+#add{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+#um{
+    margin-top: 5%;
+}
+#dois{
+    margin-left: 8%;
 }

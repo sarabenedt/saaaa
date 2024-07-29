@@ -37,6 +37,11 @@ header {
     border: none;
     outline: none;
 }
+.ludo{
+    text-decoration: none;
+ color: white;
+    font-size: x-large;
+}
 
 .icon-link {
     display: flex;

@@ -89,8 +89,9 @@ nav a:first-child {
 }
 
 .ludo {
-    position: absolute;
-    left: 0;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
 }
 
 .img {
@@ -126,6 +127,17 @@ nav a:first-child {
 
 }
 
+#btn-lateral {
+    padding-right: 10px;
+    display: none;
+
+}
+
+#button {
+    display: none;
+
+}
+
 .box-login {
     display: flex;
     flex-direction: column;
@@ -148,4 +160,149 @@ nav a:first-child {
 .com {
     margin: 2%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+versao-mobile {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    width: 60%;
+    height: 100%;
+    background-color: var(--cor-tres);
+    position: absolute;
+    top: 50px;
+    display: none;
+    /* border-radius: 10px; */
+    visibility: hidden;
+    z-index: 1;
+}
+
+.versao-mobile a {
+    padding: 20px;
+    text-decoration: none;
+    color: var(--preto);
+    width: 100%;
+}
+
+.versao-mobile a:hover {
+    background-color: var(--BRANCO)
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: flex;
+        /* Muda a direção do flex em telas menores */
+        align-items: flex-start;
+        /* Alinha os itens à esquerda */
+    }
+
+    #login {
+        width: auto;
+        /* Ajusta a largura do login em telas menores */
+        height: auto;
+        /* Altura automática para melhor responsividade */
+    }
+  #btn-buscar{
+   right: 0%;
+  }
+  #buscar{ 
+   margin-left: 5%;
+  }
+
+    versao-mobile.abrir {
+        display: flex;
+        visibility: visible;
+        text-align: start;
+    }
+    #btn-lateral {
+        display: flex;
+        margin-left: 0px;
+        color: var(--cor-tres);
+
+    }
+
+    #button {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+.ludo{
+    font-size: 14px;
+    margin: 0% ;
+}
+
+    .content {
+        top: 70%;
+        /* Ajusta a posição do conteúdo */
+    }
+
+    .email_login {
+        width: 80%;
+        /* Aumenta a largura em dispositivos menores */
+    }
+
+    .sarinha {
+        width: 80%;
+        /* Ajusta a largura do botão em telas menores */
+    }
+
+    .ok {
+        font-size: 18px;
+        /* Diminui o tamanho da fonte em telas menores */
+    }
+
+    .com {
+        font-size: 16px;
+        /* Ajusta o tamanho da fonte para textos menores */
+    }
+
+    .img img {
+        max-width: 30px;
+        /* Aumenta a largura máxima da imagem em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    #login {
+        width: 300px;
+        /* Largura quase total em dispositivos muito pequenos */
+        height: auto;
+        /* Altura automática */
+    }
+
+    .email_login {
+        width: 90%;
+        /* Ajuste adicional em telas muito pequenas */
+        font-size: 14px;
+        /* Tamanho de fonte menor para campos de entrada */
+    }
+
+    .sarinha {
+        width: 20%;
+        /* Largura total para o botão em telas pequenas */
+        font-size: 14px;
+        /* Tamanho de fonte menor para o botão */
+    }
+
+    #btn-lateral {
+        display: flex;
+        margin-left: 0px;
+        color: var(--cor-tres);
+
+    }
+
+    #button {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .okay {
+        font-size: 16px;
+        /* Diminui o tamanho da fonte para melhor visualização */
+    }
 }
