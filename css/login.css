@@ -162,7 +162,7 @@ nav a:first-child {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-versao-mobile {
+#versao-mobile {
     width: 60%;
     display: flex;
     flex-direction: column;
