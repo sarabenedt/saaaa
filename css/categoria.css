@@ -54,6 +54,7 @@ header {
     right: 11%;
     cursor: pointer;
 }
+
 nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -20,7 +20,7 @@
             <button type="submit" id="btn-buscar"><img src="../imagens/search1.png"
                     alt="" width="30px"></button>
         </form>
-        <a href="../views/cadastro.html" class="icon-link">
+        <a href="../views/cadastro.php" class="icon-link">
             <img src="../imagens/account_circle_24dp_FILL0_wght400_GRAD0_opsz24 (3).png" alt="" width="40px">
             cadastre-se
         </a>

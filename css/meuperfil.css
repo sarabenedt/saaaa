@@ -61,34 +61,49 @@ nav {
 nav a:first-child {
     border-right: 1px solid var(--preto);
 }
-.ludo{
+
+.ludo {
     text-decoration: none;
     font-size: x-large;
     color: white;
 }
-.categoria{
+
+.categoria {
     color: rgb(0, 0, 0);
-    display: grid;
     margin: 9px;
-    font-size: smaller;
 
 }
-.meu{
+
+.meu {
     display: grid;
     text-align: center;
     margin-top: 5%;
     margin-right: 20%;
 }
-#dois{
+
+#dois {
     position: relative;
     margin-right: 0.5%;
     top: 6px;
 }
-.color{
-background-color: var(--cor-tres);
-display: flex;
-flex-direction: column;
-width: 100px;
-margin-left: 30%;
-margin-top: 20%;
+
+.color {
+    background-color: var(--cor-tres);
+    grid-template-columns: max-content;
+    margin-left: 15%;
+    height: 600px;
+    width: 900px;
+}
+
+.lumo {
+    display: flex;
+    grid-template-columns: repeat(2, 2fr);
+    margin:0.5%;
+    border: 10%;
+}
+.usuario{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+ margin-bottom: auto;
 }

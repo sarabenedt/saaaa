@@ -28,7 +28,7 @@
     </header>
     <nav>
         <a href="">Catálogo</a>
-        <a href="../views/sobre.html">Sobre a loja</a>
+        <a href="../views/sobre.php">Sobre a loja</a>
     </nav>
     <main>
         <section id="banner">

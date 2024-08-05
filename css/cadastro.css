@@ -120,7 +120,7 @@ nav a:first-child{
     width: 150px;
     text-align: center;
     margin: 3%;
-    color: white;
+    color: rgb(87, 37, 37);
     font-size: 20px;
 
 }
@@ -147,4 +147,49 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 1%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Colocar os elementos em coluna */
+        align-items: flex-start; /* Alinhar à esquerda */
+    }
+
+    #form-buscar {
+        width: 80%; /* Formulário de busca ocupa 100% */
+    }
+    #btn-buscar{
+       
+    }
+
+    nav {
+        grid-template-columns: 1fr; /* Uma coluna em dispositivos menores */
+    }
+
+    .email_login {
+        width: 100%; /* Campo de email ocupa 100% */
+    }
+
+    .sarinha {
+        width: 60%; /* Botão ocupa 100% do espaço em telas menores */
+    }
+
+    #login {
+        width: 95%; /* Ajustar largura em telas menores */
+        padding: 10px; /* Reduzir o padding em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .okay {
+        font-size: 14px; /* Reduzir o tamanho da fonte em dispositivos muito pequenos */
+    }
+
+    .sarinha {
+        padding: 8px; /* Reduzir padding do botão */
+        font-size: 16px; /* Reduzir tamanho da fonte */
+    }
+
+    .ludo {
+        font-size: 24px; /* Diminuir tamanho do título em telas pequenas */
+    }
 }
