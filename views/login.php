@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -48,11 +47,11 @@
                         <h1 class="com">Login</h1>
                         <div class="box-login">
                             <label class="ok" for="email_login">Email</label>
-                            <input class="email_login" name="email_login" required="required" type="text" width="40px" />
+                            <input class="email_login" name="email_login" required="required" type="text" width="40px"/>
                         </div>
                         <div class="box-login">
                             <label class="ok" for="senha_login">Senha</label>
-                            <input class="email_login" name="senha_login" required="required" type="password" />
+                            <input class="email_login" name="senha_login" required="required" type="password"/>
                         </div>
                         <p>
                             <button class="sarinha" type="submit">Login</button>
@@ -79,5 +78,4 @@
         </div>
     </main>
 </body>
-
 </html>

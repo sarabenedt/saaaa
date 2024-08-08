@@ -83,7 +83,7 @@ nav a:first-child{
     border-radius:40px;
     background-color: var(--cor-primaria);
     width: 1000px;
-    height: 350px;
+    height: 450px;
     text-align: center;
    margin-left: 22%;
     color: white;
@@ -93,6 +93,46 @@ nav a:first-child{
 #margin{
     display: flex;
 
+}
+.menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 40%;
+}
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+.menu a:hover {
+    background-color: #f0f0f0;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Oculta o menu em telas menores por padrão */
+    }
+    .hamburger {
+        display: block; /* Exibe o botão hamburger */
+    }
+    .logo-busca {
+        flex-direction: column; /* Empilha nome e busca verticalmente em telas menores */
+        align-items: flex-start; /* Alinha à esquerda */
+    }
+    #form-buscar {
+        width: 80%;
+        margin-left: 15px; 
+        
+    }
 }
 .sara{
     display: grid;
@@ -105,7 +145,7 @@ nav a:first-child{
 }
 #add{
     font-size: 15px;
-  text-decoration: none;
+  margin-top: 10%;
 }
 #um{
     margin-top: 5%;
@@ -173,11 +213,15 @@ nav a:first-child{
     }
 
     #back {
-        height: auto; /* Allow dynamic height */
+
         font-size: 8px; /* Reduce font size */
     }
 
     .sara {
         font-size: 18px; /* Reduce font size */
     }
-}
+    #add{
+        position: relative;
+        top: 20%;
+    }
+   }

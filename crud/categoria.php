@@ -13,6 +13,7 @@ $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <title>LudoFashion - Categorias</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/categoria.css" />
+    <script src="../js/script.js" defer></script>
     <link rel="shortcut icon" href="../imagens/Logo de Loja de Roupas Femininas Estilo Minimalista (3).png" type="image/x-icon">
 </head>
 <body>
@@ -22,20 +23,22 @@ $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <input type="search" name="buscar" id="buscar" placeholder="buscar...">
             <button type="submit" id="btn-buscar"><img src="../imagens/search1.png" alt="" width="30px"></button>
         </form>
-        <a href="../views/cadastro.php" class="icon-link">
-            <img src="../imagens/account_circle_24dp_FILL0_wght400_GRAD0_opsz24 (3).png" alt="" width="40px"> cadastre-se
-        </a>
-        <a href="../views/duvidas.php" class="icon-link">
-            <img src="../imagens/help_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="40px"> dúvidas
-        </a>
-    </header>
-    <nav>
-        <a href="">Catálogo</a>
-        <a href="">Sobre a loja</a>
-    </nav>
+        <div class="hamburger" id="hamburger">
+            &#9776; <!-- Ícone do menu hamburguer -->
+        </div>
+        <nav class="menu" id="nav-menu">
+            <a href="#">Catálogo</a>
+            <a href="#">Sobre a loja</a>
+            <a href="../views/cadastro.php" class="icon-link">
+                <img src="../imagens/account_circle_24dp_FILL0_wght400_GRAD0_opsz24 (3).png" alt="" width="40px"> Cadastre-se
+            </a>
+            <a href="../views/duvidas.php" class="icon-link">
+                <img src="../imagens/help_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="40px"> Dúvidas
+            </a>
+        </nav>
+</header>
     <div id="categoria">
-        <img id="um" src="../imagens/list.png" alt="" width="50px">
-        <h1>Categoria</h1>
+        <h1 id="um">Categoria</h1>
     </div>
     <div id="back">
         <section class="sara">
@@ -53,7 +56,7 @@ $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </section>
         <div id="add">
             <a href="create.php">
-                <h1><img src="../imagens/add.png" alt="" width="30px"> Adicionar categoria</h1>
+                <h1><img id="add" src="../imagens/add.png" alt="" width="30px"> Adicionar categoria</h1>
             </a>
         </div>
     </div>
