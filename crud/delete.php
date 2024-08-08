@@ -1,7 +1,6 @@
 <?php
-include 'config.php'; // Corrija o caminho conforme sua estrutura de diretórios
+include 'config.php'; 
 
-// Certifique-se de que o id foi passado corretamente na URL
 if (!isset($_GET['id'])) {
     die('ID não fornecido.');
 }

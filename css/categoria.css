@@ -113,3 +113,71 @@ nav a:first-child{
 #dois{
     margin-left: 8%;
 }
+/* Responsiveness */
+@media (max-width: 1200px) {
+    #back {
+        width: 80%; /* Adjust width for medium screens */
+        margin-left: 10%; /* Center it */
+    }
+
+    #categoria {
+        margin: 1% 20%; /* Center category */
+        font-size: large; /* Slightly reduce font size */
+    }
+
+    .sara {
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        flex-direction: column; /* Stack header elements */
+        align-items: flex-start; /* Align to start */
+    }
+
+    #btn-buscar {
+        right: 5%; /* Adjust button position */
+    }
+
+    nav {
+        grid-template-columns: 1fr; /* Stack nav items */
+    }
+
+    #categoria {
+        margin: 1% 10%; /* Adjust margins */
+        font-size: medium; /* Further reduce font size */
+    }
+
+    #back {
+        width: 90%; /* Full width */
+        margin-left: 5%; /* Center it */
+    }
+
+    .sara {
+        grid-template-columns: 1fr; /* Change to 1 column */
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 0.5rem; /* Reduce padding */
+    }
+
+    .ludo {
+        font-size: large; /* Reduce font size */
+    }
+
+    #buscar {
+        padding: 0.25rem; /* Reduce input padding */
+    }
+
+    #back {
+        height: auto; /* Allow dynamic height */
+        font-size: 8px; /* Reduce font size */
+    }
+
+    .sara {
+        font-size: 18px; /* Reduce font size */
+    }
+}

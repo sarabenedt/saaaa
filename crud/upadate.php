@@ -1,19 +1,16 @@
 <?php
 include 'config.php';
 
-// Verifica se o ID foi passado na URL
 if (!isset($_GET['id'])) {
     die('ID não fornecido.');
 }
 
 $id = $_GET['id'];
 
-// Prepara e executa a consulta para buscar a categoria
 $stmt = $pdo->prepare("SELECT * FROM categorias WHERE id = :id");
 $stmt->execute(['id' => $id]);
 $categoria = $stmt->fetch(PDO::FETCH_ASSOC);
 
-// Verifica se a categoria foi encontrada
 if (!$categoria) {
     die('Categoria não encontrada.');
 }

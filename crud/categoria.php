@@ -42,7 +42,7 @@ $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <?php foreach ($categorias as $categoria): ?>
                 <h1 id="margin">
                     <?php echo htmlspecialchars($categoria['nome']); ?>
-                    <a href="update.php?id=<?php echo $categoria['id']; ?>">
+                    <a href="upadate.php?id=<?php echo $categoria['id']; ?>">
                         <img id="dois" src="../imagens/edit.png" width="30px" height="30px" alt="Editar">
                     </a>
                     <a href="delete.php?id=<?php echo $categoria['id']; ?>" onclick="return confirm('Tem certeza que deseja deletar?');">
