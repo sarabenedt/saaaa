@@ -83,7 +83,7 @@ nav a:first-child{
     border-radius:40px;
     background-color: var(--cor-primaria);
     width: 1000px;
-    height: 450px;
+    height: 350px;
     text-align: center;
    margin-left: 22%;
     color: white;
@@ -101,7 +101,7 @@ nav a:first-child{
     top: 60px;
     left: 0;
     background-color: white;
-    border: 1px solid #ccc;
+    border: 1px solid #ee6ccd;
     width: 40%;
 }
 .menu a {
@@ -140,12 +140,11 @@ nav a:first-child{
     gap: 50px;
     align-items: center;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 20px;
 }
 #add{
-    font-size: 15px;
-  margin-top: 10%;
+    font-size: 16px;
 }
 #um{
     margin-top: 5%;
@@ -156,13 +155,13 @@ nav a:first-child{
 /* Responsiveness */
 @media (max-width: 1200px) {
     #back {
-        width: 80%; /* Adjust width for medium screens */
-        margin-left: 10%; /* Center it */
+        width: 80%;
+        margin-left: 10%; 
     }
 
     #categoria {
-        margin: 1% 20%; /* Center category */
-        font-size: large; /* Slightly reduce font size */
+        margin: 1% 40%;
+        font-size: large;
     }
 
     .sara {
@@ -185,7 +184,7 @@ nav a:first-child{
     }
 
     #categoria {
-        margin: 1% 10%; /* Adjust margins */
+        margin: 1% 40%; /* Adjust margins */
         font-size: medium; /* Further reduce font size */
     }
 
@@ -195,7 +194,7 @@ nav a:first-child{
     }
 
     .sara {
-        grid-template-columns: 1fr; /* Change to 1 column */
+      font-size: medium;
     }
 }
 
@@ -204,6 +203,7 @@ nav a:first-child{
         padding: 0.5rem; /* Reduce padding */
     }
 
+
     .ludo {
         font-size: large; /* Reduce font size */
     }
@@ -211,17 +211,28 @@ nav a:first-child{
     #buscar {
         padding: 0.25rem; /* Reduce input padding */
     }
+    #categoria {
+        margin: 1% 27%;
+        font-size: medium; 
+    }
 
     #back {
-
+      margin-left: 0%;
         font-size: 8px; /* Reduce font size */
+        width: 98%;
+        height: 450px;
+        margin: 1%;
+
+
     }
 
     .sara {
-        font-size: 18px; /* Reduce font size */
+        font-size: 13px; /* Reduce font size */
+        margin: 2%;
     }
     #add{
         position: relative;
-        top: 20%;
+        font-size: 10px;
+        margin-top: 0%;
     }
    }

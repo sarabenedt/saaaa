@@ -1,7 +1,6 @@
 <?php
 include 'config.php';
 
-// Ler categorias
 $stmt = $pdo->query("SELECT * FROM categorias");
 $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
@@ -24,7 +23,7 @@ $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <button type="submit" id="btn-buscar"><img src="../imagens/search1.png" alt="" width="30px"></button>
         </form>
         <div class="hamburger" id="hamburger">
-            &#9776; <!-- Ícone do menu hamburguer -->
+         <!-- Ícone do menu hamburguer -->
         </div>
         <nav class="menu" id="nav-menu">
             <a href="#">Catálogo</a>
