@@ -1,5 +1,5 @@
 <?php
-// Inclui o arquivo de configuração, que contém a conexão com o banco de dados.
+// conexão com o banco de dados.
 include 'config.php';
 
 // Executa uma consulta SQL para selecionar todos os registros da tabela 'categorias'.
@@ -60,7 +60,7 @@ $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <h1 id="margin">
                     <!-- Exibe o nome da categoria, escapando caracteres especiais para segurança. -->
                     <?php echo htmlspecialchars($categoria['nome']); ?>
-                    <!-- Link para editar a categoria com o respectivo ícone. -->
+                    <!-- Link para editar a categoria com o  ícone. -->
                     <a href="upadate.php?id=<?php echo $categoria['id']; ?>">
                         <img id="dois" src="../imagens/edit.png" width="30px" height="30px" alt="Editar">
                     </a>
@@ -71,7 +71,7 @@ $categorias = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </h1>
             <?php endforeach; ?>
         </section>
-        <!-- Link para adicionar uma nova categoria com o respectivo ícone. -->
+        <!-- Link para adicionar uma nova categoria com o  ícone. -->
         <div id="add">
             <a href="create.php">
                 <h1><img id="add" src="../imagens/add.png" alt="" width="30px"> Adicionar categoria</h1>

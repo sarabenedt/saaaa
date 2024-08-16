@@ -1,9 +1,9 @@
 <?php
-// Define as variáveis de conexão com o banco de dados.
+// conexão com o banco de dados.
 $host = 'localhost'; // Nome do host onde o banco de dados está localizado.
 $db = 'ludofashion'; // Nome do banco de dados.
 $user = 'root'; // Nome de usuário para conectar ao banco de dados.
-$pass = ''; // Senha para conectar ao banco de dados (vazio no caso do MySQL padrão).
+$pass = ''; // Senha
 
 try {
     // Cria uma nova instância da classe PDO para conectar ao banco de dados MySQL.
